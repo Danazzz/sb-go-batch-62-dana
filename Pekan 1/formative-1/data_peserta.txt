@@ -1,0 +1,11 @@
+Data Peserta Bootcamp Digital Skill - Golang Backend Development
+1. Nama: I Nyoman Gde Artadana Mahaputra Wardhiana
+2. Email: wardhianadana@gmail.com
+3. Sistem Operasi yang digunakan: MacOs 15.1.1 (24B91)
+4. Akun Github: Danazzz
+5. Akun Telegram: @danaputra97
+6. Role Pekerjaan (BE/FE/DEVOPS/MAHASISWA) : MAHASISWA S2
+7. Umur: 27
+8. Pernah menggunakan Go? : belum
+9. Bahasa Pemrograman yg pernah dipelajari: PHP, MERN Stack, Python
+10. Pernah membuat REST API? : Pernah
