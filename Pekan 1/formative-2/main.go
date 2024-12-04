@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+	"golang.org/x/text/cases"
+    "golang.org/x/text/language"
 )
 
 func main() {
@@ -25,7 +27,8 @@ func main() {
 	var kataKedua = "senang"
 	var kataKetiga = "belajar"
 	var kataKeempat = "golang"
-	output := fmt.Sprintf("%s %s %s %s", kataPertama, strings.Title(kataKedua), kataKetiga[:len(kataKetiga)-1]+"R", strings.ToUpper(kataKeempat))
+	c := cases.Title(language.Und)
+	output := fmt.Sprintf("%s %s %s %s", kataPertama, c.String(kataKedua), kataKetiga[:len(kataKetiga)-1]+"R", strings.ToUpper(kataKeempat))
 	fmt.Println(output)
 
 	// soal 4
